@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.svg" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f4b94a8ef3.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Paranshu Makwana | Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <h2 class="logo">PM</h2>
+      <nav class="nav">
+        <a href="#projects" class="nav-items"><h3>Projects</h3></a>
+        <a href="#about" class="nav-items"><h3>About</h3></a>
+        <a href="#" class="nav-items"><h3>Home</h3></a>
+      </nav>
+    </header>
+    <div class="hero">
+      <h1>Hey I'm Paranshu Makwana, a self taught software developer.</h1>
+
+      <a href="#projects">Explore my projects</a>
+    </div>
+
+    <div class="card__grid" id="projects">
+      <div class="card grid-item one">
+        <div class="card-text-wrapper">
+          <h1 class="card-title">
+           Music Player
+          </h1>
+          <p>Music player built on react</p>
+        </div>
+        <div class="card-link">
+          <button type="button" class="btn open-modal" data-open="modal1">
+            Learn more
+          </button>
+        </div>
+      </div>
+      <div class="card grid__items">
+        <div class="card-text-wrapper">
+          <h1 class="card-title">
+           Cinema App
+          </h1>
+          <p>A mobile ui made on React.</p>
+        </div>
+        <div class="card-link">
+          <button type="button" class="btn open-modal" data-open="modal2">
+            Learn more
+          </button>
+        </div>
+      </div>
+      <div class="card grid__items">
+        <div class="card-text-wrapper">
+          <h1 class="card-title">
+           Sweetaschocolates
+          </h1>
+          <p>E-commerce, local New Zealand startup.</p>
+        </div>
+        <div class="card-link">
+          <button type="button" class="btn open-modal" data-open="modal3">
+            Learn more
+          </button>
+        </div>
+      </div>
+      <div class="card grid__items">
+        <div class="card-text-wrapper">
+          <h1 class="card-title">
+          Bootress
+          </h1>
+          <p>Full Stack Project</p>
+        </div>
+        <div class="card-link">
+          <button type="button" class="btn open-modal" data-open="modal4">
+            Learn more
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="modal1">
+      <div class="dialog-modal" id="style-2">
+        <header class="modal-header">
+          <h1>Music Player React</h1>
+          <p>Coming soon...</p>
+          <button class="btn close-modal" data-close>x</button>
+        </header>
+        <section class="modal-section">
+          <h1>Technologies used</h1>
+          <ul>
+            <li>
+              <p>ReactJs</p>
+            </li>
+            <li>
+              <p>Redux</p>
+            </li>
+            <li>
+              <p>Spotify Web sdk</p>
+            </li>
+          </ul>
+          <h2>About</h2>
+          <p>
+           My current project. I plan to build a music player using on react using spotify api.
+          </p>
+        </section>
+        <footer class="modal-footer">
+          <p>Coming soon...</p>
+        </footer>
+      </div>
+    </div>
+
+    <div class="modal" id="modal2">
+      <div class="dialog-modal">
+        <header class="modal-header cinema">
+          <h1>Cinema App</h1>
+          <button class="btn close-modal" data-close>x</button>
+        </header>
+        <section class="modal-section">
+          <h1>Technologies used</h1>
+          <ul>
+            <li>
+              <p>HTML</p>
+            </li>
+            <li>
+              <p>CSS</p>
+            </li>
+            <li>
+              <p>React</p>
+            </li>
+            <li>
+              <p>Redux</p>
+            </li>
+            <li>
+              <p>TMDB API</p>
+            </li>
+            <li>
+              <p>Framer motion</p>
+            </li>
+          </ul>
+          <h2>About</h2>
+          <p>
+         A movie app made on react and TMDB api. You can search and explore latest movies. I was watching a youtube tutorial of mobile layout using HTML, CSS.
+         . And I decided to convert that concept into reality by using React and TMDB api.
+          </p>
+          <p>
+          App is built using React Hooks and Redux Hooks. This project helped me improve my react skills. And learn some new HTML and CSS techniques.
+            </p>
+            <p>
+              This app is made for mobile for best experience visit on mobile or inspect browser window , select
+              iphone 6/7/8 plus screen
+            </p>
+        </section>
+        <footer class="modal-footer">
+          <div class="footer-link-wrapper">
+            <a target="_blank" href="https://distracted-roentgen-28c3cb.netlify.app/">
+              <button type="button" class="btn modal-foo">Live</button>
+            </a>
+            <a target="_blank" href="https://github.com/paranshu1234/cinema-react">
+            <button type="button" class="btn modal-foo">Code</button>
+            </a>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <div class="modal" id="modal3">
+      <div class="dialog-modal">
+        <header class="modal-header sweet">
+          <h1>Sweetaschocolates</h1>
+          <button class="btn close-modal" data-close>x</button>
+        </header>
+        <section class="modal-section">
+          <h1>Technologies used</h1>
+          <ul>
+            <li>
+              <p>Shopify</p>
+            </li>
+            <li><p>Instagram</p></li>
+          </ul>
+          <h2>About</h2>
+          <p>
+         Created and maintained Shopify store for an E-commerce business Sweetaschocolates. Actively participated in the social media marketing process and learnt
+         a thing or two about marketing.
+          </p>
+        </section>
+        <footer class="modal-footer">
+          <div class="footer-link-wrapper">
+            <a target="_blank" href="https://sweetaschocolates.com/">
+              <button type="button" class="btn modal-foo">Live</button>
+            </a>
+
+            <a target="_blank" href="https://www.instagram.com/sweetaschocolates_nz_/">
+            <button type="button" class="btn modal-foo">Instagram</button>
+            </a>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <div class="modal" id="modal4">
+      <div class="dialog-modal">
+        <header class="modal-header bootress">
+          <h1>Bootress</h1>
+          <button class="btn close-modal" data-close>x</button>
+        </header>
+        <section class="modal-section">
+          <h1>Technologies used</h1>
+          <ul>
+            <li>
+              <p>React</p>
+            </li>
+            <li>
+              <p>Redux</p>
+            </li>
+            <li>
+              <p>Express Js</p>
+            </li>
+            <li>
+              <p>Mongo DB</p>
+            </li>
+            <li>
+              <p>Cloudinary (Store Image Files)</p>
+            </li>
+            <li>
+              <p>SendGrid (Send Emails)</p>
+            </li>
+            <li>
+              <p>Material UI</p>
+            </li>
+            <h1>Deployment</h1>
+            <li>
+              <p>Heroku (Backend)</p>
+            </li>
+            <li>
+              <p>Netlify (Frontend)</p>
+            </li>
+            <li>
+              <p>MongoDB Atlas (Data Storage) </p>
+            </li>
+           
+          </ul>
+          <h2>About</h2>
+          <p>
+          My very first programming project. When I took this project I didn't have any programming knowledge. Backend and database was majority of the 
+          focus in this project. I learned using a youtube tutorial of a full stack app it used firebase and react. 
+          </p>
+          <p>
+            Frontend was built on his github repository react and redux was already set. I only made some customisations.
+            But whole backend was completely designed from the ground up. Since I wanted to use my own database and didn't wanted to use firebase.
+          </p>
+          <p>
+            You can view the project live and I have made a youtube walkthrough of this project's features.
+          </p>
+        </section>
+        <footer class="modal-footer">
+          <div class="footer-link-wrapper">
+            <div class="footer-link-wrapper">
+              <a target="_blank" href="https://thirsty-visvesvaraya-b8dea9.netlify.app/">
+                <button type="button" class="btn modal-foo">Live</button>
+              </a>
+  
+              <a target="_blank" href="https://www.youtube.com/watch?v=n8bNFBk3yKU">
+              <button type="button" class="btn modal-foo">Video</button>
+              </a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <section id="about" class="about_me">
+      <div class="content_wrapper">
+        <div class="heading_wrapper">
+          <a href="https://www.instagram.com/sweetaschocolates_nz_/" target="_blank" >   <i class="instagram fab fa-instagram"></i></a>
+          <a href="https://github.com/paranshu1234" target="_blank" > <i class="github fab fa-github"></i></a>
+          <a href="https://www.facebook.com/paranshu.makwana"  target="_blank"> <i class="facebook fab fa-facebook"></i></a>
+        </div>
+
+        <div class="contact">
+          <h1>Contact</h1>
+          <h3>Gmail: paranshu1234@gmail.com</h3>
+          <h3>Phone: +64 276541124</h3>
+          <a href="https://drive.google.com/file/d/10jB7-TgoYAAO5meGJ7ex6pb5bh7P8Agx/view" target="_blank" rel="noopener noreferrer">
+          <button class="btn rbtn">
+            <span><i class="resume fas fa-file-download"></i></span>Resume
+          </button>
+        </a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div>
+        <p>
+          Made with <span><i class="heart fas fa-heart"></i></span> by Paranshu
+          Makwana
+        </p>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
